@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>5 Componentes con Less</title>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="navbar__logo">JISSEL</div>
+    <ul class="navbar__links">
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#servicios">Servicios</a></li>
+      <li><a href="#nosotros">Nosotros</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO PANEL -->
+  <section class="hero" id="inicio">
+    <div class="hero__content">
+      <h1>Bienvenido a Mi Proyecto</h1>
+      <p>Una landing page hecha con Vite y LESS.</p>
+      <button class="hero__btn">Conoce más</button>
+    </div>
+  </section>
+
+  <!-- CARDS -->
+  <section class="cards" id="servicios">
+    <div class="card">
+      <h3>Servicio 1</h3>
+      <p>Descripción breve del servicio número uno.</p>
+    </div>
+    <div class="card">
+      <h3>Servicio 2</h3>
+      <p>Descripción breve del servicio número dos.</p>
+    </div>
+    <div class="card">
+      <h3>Servicio 3</h3>
+      <p>Descripción breve del servicio número tres.</p>
+    </div>
+  </section>
+
+  <!-- HALF INVERTED PANEL -->
+  <section class="half-panel" id="nosotros">
+    <div class="half-panel__text">
+      <h2>Sobre Nosotros</h2>
+      <p>Aquí va el texto explicando quiénes somos, qué hacemos y por qué somos la mejor opción.</p>
+    </div>
+    <div class="half-panel__image">
+      <img src="https://picsum.photos/seed/nosotros/800/600" alt="Sobre nosotros" />
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer" id="contacto">
+    <p>&copy; 2026 Mi Proyecto. Todos los derechos reservados.</p>
+  </footer>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

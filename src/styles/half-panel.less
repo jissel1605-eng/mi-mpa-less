@@ -1,0 +1,28 @@
+@import "variables.less";
+
+.half-panel {
+  display: flex;
+  flex-wrap: wrap;
+
+  &__text,
+  &__image {
+    flex: 1 1 400px;
+  }
+
+  &__text {
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    h2 {
+      color: @color-primary;
+    }
+  }
+
+  &__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}

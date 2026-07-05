@@ -1,0 +1,27 @@
+@import "variables.less";
+
+.hero {
+  background: linear-gradient(rgba(30, 58, 138, 0.75), rgba(30, 58, 138, 0.75)),
+              url('https://picsum.photos/seed/hero/1600/700');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 6rem 2rem;
+
+  &__content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+
+  &__btn {
+    margin-top: 1.5rem;
+    padding: 0.8rem 2rem;
+    border: none;
+    border-radius: 6px;
+    background: @color-secondary;
+    color: @color-dark;
+    font-weight: bold;
+    cursor: pointer;
+  }
+}

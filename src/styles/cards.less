@@ -1,0 +1,24 @@
+@import "variables.less";
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  padding: 4rem 2rem;
+  background: @color-light;
+
+  .card {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    width: 280px;
+    text-align: center;
+
+    h3 {
+      color: @color-primary;
+      margin-bottom: 0.8rem;
+    }
+  }
+}

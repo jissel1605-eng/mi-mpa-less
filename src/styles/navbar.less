@@ -1,0 +1,29 @@
+@import "variables.less";
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: @color-primary;
+  color: white;
+
+  &__logo {
+    font-weight: bold;
+    font-size: 1.4rem;
+  }
+
+  &__links {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+
+    li a {
+      color: white;
+      text-decoration: none;
+      &:hover {
+        color: @color-secondary;
+      }
+    }
+  }
+}
