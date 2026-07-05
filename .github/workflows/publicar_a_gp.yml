@@ -1,4 +1,5 @@
 name: VITE MPA Publicar a Github Pages
+
 on:
   push:
     branches:
@@ -12,6 +13,7 @@ env:
 concurrency:
   group: "pages"
   cancel-in-progress: true
+
 jobs:
   build:
     environment:
